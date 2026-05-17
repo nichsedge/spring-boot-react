@@ -1,11 +1,67 @@
-# Tutorial Arsitektur & Pemrograman Aplikasi Perusahaan
+# Enterprise Application Architecture & Programming (APAP)
 
-Semua pdf tutorial dapat diakses pada https://drive.google.com/drive/folders/13l2XdyIxJ6pGuPUnMKyeftr2M608TI8z?usp=sharing
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white)](https://spring.io/projects/spring-boot)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
+[![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)](https://maven.apache.org/)
 
-## Authors
-* **Muhammad Ichsanul Amal** - *1906353454* - *A*
+Welcome to the **Enterprise Application Architecture & Programming (APAP)** repository. This workspace contains a collection of backend, frontend, and full-stack modules built during the APAP course at the **Faculty of Computer Science, University of Indonesia**. 
+
+The projects demonstrate core concepts of enterprise application development, including MVC architecture, database modeling, secure APIs, automated testing, and dynamic frontend integrations.
 
 ---
+
+## 🌟 Repository Overview & Directory Map
+
+This workspace contains various modules demonstrating enterprise development best practices, ranging from foundational backend logic to full-stack integration:
+
+| Directory / Module | Technologies | Key Concepts Covered |
+| :--- | :--- | :--- |
+| 📂 [**`tut1_Advanced Git...`**](file:///home/al/Projects/spring-boot-react/tut1_Advanced%20Git,%20GitHub,%20&%20Spring%20Boot) | Git, Spring Boot | Git workflows, branching/merging, pull requests, basic Spring Boot MVC controller setup |
+| 📂 [**`tut2_Organizing Domain...`**](file:///home/al/Projects/spring-boot-react/tut2_Organizing%20Domain%20Logic) | Spring Boot MVC | Service layer separation, Dependency Injection (`@Autowired`), In-Memory data storage, query parameters |
+| 📂 [**`tut3_Database_4...`**](file:///home/al/Projects/spring-boot-react/tut3_Database_4_Thymeleaf_5_Web%20Service_6_Web%20Security) | Spring JPA, Thymeleaf, Security | JPA/Hibernate relationships, CRUD operations, dynamic Thymeleaf templating, REST API client via `WebClient` |
+| 📂 [**`tut7_ReactJS`**](file:///home/al/Projects/spring-boot-react/tut7_ReactJS) | ReactJS, JS | React components, virtual DOM, props vs state, React component lifecycle methods |
+| 📂 [**`tut7_junit testing`**](file:///home/al/Projects/spring-boot-react/tut7_junit%20testing) | JUnit 5, Mockito | Backend unit and integration testing, mocking services, test assertions |
+| 📂 [**`tut8_react+spring`**](file:///home/al/Projects/spring-boot-react/tut8_react+spring) | Spring Boot, ReactJS | Full-stack architecture, API integration, CORS configuration, cross-origin communication |
+| 📂 [**`tugas1_sielekthor...`**](file:///home/al/Projects/spring-boot-react/tugas1_sielekthor_1906353454) | Spring Boot, Thymeleaf | "Sielekthor" assignment — a complete web application utilizing MVC architecture |
+
+---
+
+## 🛠️ Quick Start & Running Locally
+
+### Backend (Spring Boot Modules)
+1. Navigate to any backend directory (e.g. `tut8_react+spring/minicommerce`):
+   ```bash
+   cd "tut8_react+spring/minicommerce"
+   ```
+2. Run the application using Maven:
+   ```bash
+   mvn spring-boot:run
+   ```
+
+### Frontend (React Modules)
+1. Navigate to the React app directory (e.g. `tut8_react+spring/frontend-minicommerce`):
+   ```bash
+   cd "tut8_react+spring/frontend-minicommerce"
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm start
+   ```
+
+---
+
+## 👤 Author
+* **Muhammad Ichsanul Amal** (NPM: 1906353454) - Class A, Faculty of Computer Science, University of Indonesia
+* **Course Resource Access**: [All Tutorial PDFs](https://drive.google.com/drive/folders/13l2XdyIxJ6pGuPUnMKyeftr2M608TI8z?usp=sharing)
+
+---
+
+# 📚 Tutorial Submissions & Q&A
 
 ## Tutorial 8
 
